@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Shawarma",
+        "Bitcoin": "Sí",
+        "LN": "Sí",
+        "Poligon": "No",
+        "Otras": "No",
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.44023122747998, -34.563110236974595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "La Crypta",
+        "Bitcoin": "Sí",
+        "LN": "Sí",
+        "Poligon": "No",
+        "Otras": "No",
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.44314624109955, -34.564703087202226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "name": "Temple Bar",
+        "Bitcoin": "No",
+        "LN": "Pronto...",
+        "Poligon": "No",
+        "Otras": "Pinta Token",
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.442546892504616, -34.56211188442604]
+      }
+    }
+  ]
+}
