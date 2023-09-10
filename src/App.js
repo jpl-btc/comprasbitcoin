@@ -18,6 +18,7 @@ function App() {
   const mapRef = useRef();
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [selectedData, setSelectedData] = useState(null);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
 
   useEffect(() => {
     delete L.Icon.Default.prototype._getIconUrl;
@@ -93,6 +94,7 @@ function App() {
 
         layer.on("click", () => {
           setSelectedPlace(name);
+          setIsSidebarVisible(true);
           //sidebar.toggle();
 
           setSelectedData({
@@ -118,7 +120,10 @@ function App() {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
         />
       </Map>
-      <div id="sidebar">
+      <div
+        id="sidebar"
+        style={{ display: isSidebarVisible ? "block" : "none" }}
+      >
         <h3>Información del negocio</h3>
         <div className="sidebar-content">
           {selectedData && (
@@ -137,7 +142,14 @@ function App() {
       </div>
       {selectedPlace && (
         <div className="info-box">
-          <button onClick={() => setSelectedPlace(null)}>Close</button>
+          <button
+            onClick={() => {
+              setSelectedPlace(null);
+              setIsSidebarVisible(false);
+            }}
+          >
+            Close
+          </button>
           <h1>{selectedPlace}</h1>
         </div>
       )}
