@@ -12,10 +12,6 @@ import locations from "./data/locations";
 import utensilsIcon from "./assets/shared/utensils-marker.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-const MAPBOX_API_KEY = process.env.REACT_APP_MAPBOX_API_KEY;
-const MAPBOX_USERID = process.env.REACT_APP_MAPBOX_USERID;
-const MAPBOX_STYLEID = process.env.REACT_APP_MAPBOX_STYLEID;
-
 function App() {
   const mapRef = useRef();
 
@@ -192,7 +188,7 @@ function App() {
       </div>
       <Map ref={mapRef} center={[38.907132, -77.036546]} zoom={12}>
         <TileLayer
-          url={`https://api.mapbox.com/styles/v1/${MAPBOX_USERID}/${MAPBOX_STYLEID}/tiles/256/{z}/{x}/{y}@2x?access_token=${MAPBOX_API_KEY}`}
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
       </Map>

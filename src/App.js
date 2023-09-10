@@ -14,10 +14,6 @@ import locations from "./data/locations";
 import utensilsIcon from "./assets/shared/btcPointer.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
 
-const MAPBOX_API_KEY = process.env.REACT_APP_MAPBOX_API_KEY;
-const MAPBOX_USERID = process.env.REACT_APP_MAPBOX_USERID;
-const MAPBOX_STYLEID = process.env.REACT_APP_MAPBOX_STYLEID;
-
 function App() {
   const mapRef = useRef();
   const [selectedPlace, setSelectedPlace] = useState(null);
@@ -94,9 +90,10 @@ function App() {
             deliveryZoneCircle.removeFrom(map);
           }
         });
+
         layer.on("click", () => {
           setSelectedPlace(name);
-          sidebar.toggle();
+          //sidebar.toggle();
 
           setSelectedData({
             name,
@@ -110,13 +107,6 @@ function App() {
     });
 
     geoJson.addTo(map);
-  }, [mapRef]);
-
-  useEffect(() => {
-    const { current = {} } = mapRef;
-    const { leafletElement: map } = current;
-
-    if (!map) return;
   }, [mapRef]);
 
   return (
