@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <Container>
-        <p>&copy; {new Date().getFullYear()} ComprasBitcoin</p>
+        <p>&copy; {new Date().getFullYear()} ComprasBitcoin v0.0.2</p>
       </Container>
     </footer>
   );
