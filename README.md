@@ -2,7 +2,7 @@
 
 Un proyecto nacido en La Crypta
 
-Current version: `v0.0.1`
+Current version: `v0.0.2`
 
 ## roadmap
 
@@ -22,3 +22,8 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 
 - "excelente!, agregaria que la gente pueda valorar (ademas con estrellitas con zaps??)" - bitpanter
 - que cada point tenga una certificada de " tuvo un la crypta onboarding si o no?" y eso significa que alguien de la comunidad de la crypta se acerco para verificar que el negocio efectivamente acepta ln y que sabe usarlo y anda todo bien.
+
+## Changelog
+
+v0.0.2 -> sidebar now stays open when clicking on other popup location marker.
+v0.0.1 -> it just works
