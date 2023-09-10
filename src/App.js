@@ -93,17 +93,24 @@ function App() {
         });
 
         layer.on("click", () => {
-          setSelectedPlace(name);
-          setIsSidebarVisible(true);
-          //sidebar.toggle();
-
-          setSelectedData({
-            name,
-            Bitcoin,
-            LN,
-            Poligon,
-            Otras,
-          });
+          if (selectedPlace === name) {
+            // If the clicked place is the same as the currently selected place
+            setSelectedPlace(null); // Clear the selected place
+          } else {
+            // If the clicked place is different from the currently selected place
+            setSelectedPlace(name);
+            if (!sidebar.isVisible()) {
+              // Check if the sidebar is not visible
+              sidebar.show(); // Show the sidebar
+            }
+            setSelectedData({
+              name,
+              Bitcoin,
+              LN,
+              Poligon,
+              Otras,
+            });
+          }
         });
       },
     });
@@ -120,10 +127,7 @@ function App() {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
         />
       </Map>
-      <div
-        id="sidebar"
-        style={{ display: isSidebarVisible ? "block" : "none" }}
-      >
+      <div id="sidebar">
         <h3>Información del negocio</h3>
         <div className="sidebar-content">
           {selectedData && (
