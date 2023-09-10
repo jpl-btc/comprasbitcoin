@@ -1,3 +1,5 @@
+//Begining of App.answer.js file//
+
 import React, { useEffect, useRef } from "react";
 import L from "leaflet";
 import { Map, TileLayer } from "react-leaflet";
@@ -56,8 +58,14 @@ function App() {
       },
       onEachFeature: (feature = {}, layer) => {
         const { properties = {}, geometry = {} } = feature;
-        const { name, delivery, deliveryRadius, tags, phone, website } =
-          properties;
+        const {
+          name,
+          delivery,
+          deliveryRadius,
+          tags,
+          phone,
+          website,
+        } = properties;
         const { coordinates } = geometry;
 
         let deliveryZoneCircle;
@@ -119,25 +127,9 @@ function App() {
 
     if (!map) return;
 
-    /**
-     * @lesson-10-answer Exercise 3
-     * Adding the event handler for locationfound allows
-     * us to trigger custom functionality when that
-     * event occurs.
-     */
-
     map.on("locationfound", handleOnLocationFound);
 
     return () => {
-      /**
-       * @lesson-10-answer Extra Credit
-       * When setting an event handler, we also want to
-       * make sure we turn it off when the component unmounts
-       * by returning an off command as a return statement.
-       * React Hooks will run this function once the component
-       * "cleans up".
-       */
-
       map.off("locationfound", handleOnLocationFound);
     };
   }, [mapRef]);
@@ -151,15 +143,6 @@ function App() {
     const marker = L.marker(latlng);
 
     marker.addTo(map);
-
-    /**
-     * @lesson-10-answer Exercise 4
-     * Using the same latitude and longitude, we can create
-     * a Circle shape and add it to the map just like our
-     * Marker instance. To determine how wide it is, we can
-     * use our event location's accuracy property which is
-     * the readius in meters
-     */
 
     const radius = event.accuracy;
 
@@ -186,14 +169,6 @@ function App() {
 
     const locationNationalGeographic = [38.90563, -77.037];
 
-    /**
-     * @lesson-10-answer Exercise 1
-     * When our button is clicked, we can define a
-     * specific location, create a marker for that
-     * location, and add it to our map. We can also
-     * set our map's current view to that location.
-     */
-
     const marker = L.marker(locationNationalGeographic);
 
     marker.addTo(map);
@@ -209,13 +184,7 @@ function App() {
               Mapa 2: Cada uno de los muestreos
             </button>
           </li>
-          {/**
-           * @lesson-10-answer Exercise 2
-           * We have a few options for finding someone's location
-           * but Leaflet gives us native options that use the browser
-           * to find that location. Using a button, we can set an event
-           * handler that lets us look for that location on click.
-           */}
+
           <li>
             <button onClick={handleOnFindLocation}>Find My Location</button>
           </li>
@@ -232,3 +201,5 @@ function App() {
 }
 
 export default App;
+
+//End of App.answer.js file//

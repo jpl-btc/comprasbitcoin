@@ -1,3 +1,5 @@
+//Begining of index.js file//
+
 import React from "react";
 import ReactDOM from "react-dom";
 import "./assets/stylesheets/index.css";
@@ -10,3 +12,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
+
+//End of index.js file//

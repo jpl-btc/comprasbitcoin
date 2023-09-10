@@ -1,23 +1,23 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+//Begining of Container.js file//
+
+import React from "react";
+import PropTypes from "prop-types";
 
 const Container = ({ children, className, type }) => {
-  let containerClass = 'container';
+  let containerClass = "container";
 
-  if ( type ) containerClass = `${containerClass} container-${type}`;
-  if ( className ) containerClass = `${containerClass} ${className}`;
+  if (type) containerClass = `${containerClass} container-${type}`;
+  if (className) containerClass = `${containerClass} ${className}`;
 
-  return (
-    <div className={containerClass}>
-      { children }
-    </div>
-  );
+  return <div className={containerClass}>{children}</div>;
 };
 
 Container.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
 };
 
 export default Container;
+
+//End of Container.js file//

@@ -1,15 +1,16 @@
+//Begining of Header.js file//
 
-import React from 'react';
+import React from "react";
 
-import Container from './Container';
-import Logo from './Logo';
+import Container from "./Container";
+import Logo from "./Logo";
 
-import avatarImage from '../assets/shared/avatar.jpg';
+import avatarImage from "../assets/shared/avatar.jpg";
 
 const Header = () => {
   const avatarStyles = {
-    backgroundImage: `url(${avatarImage})`
-  }
+    backgroundImage: `url(${avatarImage})`,
+  };
   return (
     <header className="header">
       <Container>
@@ -27,3 +28,5 @@ const Header = () => {
 };
 
 export default Header;
+
+//End of Header.js file//

@@ -1,3 +1,5 @@
+//Begining of Logo.js file//
+
 import React from "react";
 
 import logo from "../assets/shared/images/avatar.jpg";
@@ -12,3 +14,5 @@ const Logo = () => {
 };
 
 export default Logo;
+
+//End of Logo.js file//

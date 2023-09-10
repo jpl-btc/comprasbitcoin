@@ -1,3 +1,5 @@
+//Begining of Layout.js file//
+
 import React from "react";
 import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
@@ -30,3 +32,5 @@ Layout.propTypes = {
 };
 
 export default Layout;
+
+//End of Layout.js file//

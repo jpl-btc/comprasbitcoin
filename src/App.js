@@ -1,3 +1,5 @@
+//Begining of App.js file//
+
 import React, { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import { Map, TileLayer } from "react-leaflet";
@@ -154,3 +156,5 @@ function App() {
 }
 
 export default App;
+
+//End of App.js file//

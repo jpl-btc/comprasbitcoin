@@ -1,3 +1,5 @@
+//Begining of Footer.js file//
+
 import React from "react";
 
 import Container from "./Container";
@@ -13,3 +15,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+//End of Footer.js file//
