@@ -6,6 +6,10 @@
       "properties": {
         "id": 1,
         "name": "Shawarma",
+        "SocialNetworks": "",
+        "LightningNetwork": "",
+        "TuvoOnboarding": "",
+        "OtrosComentarios": "",
         "Bitcoin": "Sí",
         "LN": "Sí",
         "Poligon": "No",
@@ -22,6 +26,10 @@
       "properties": {
         "id": 2,
         "name": "La Crypta",
+        "SocialNetworks": "",
+        "LightningNetwork": "",
+        "TuvoOnboarding": "",
+        "OtrosComentarios": "",
         "Bitcoin": "Sí",
         "LN": "Sí",
         "Poligon": "No",
@@ -38,6 +46,10 @@
       "properties": {
         "id": 3,
         "name": "Temple Bar",
+        "SocialNetworks": "",
+        "LightningNetwork": "",
+        "TuvoOnboarding": "",
+        "OtrosComentarios": "",
         "Bitcoin": "No",
         "LN": "Pronto...",
         "Poligon": "No",
@@ -47,6 +59,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [-58.442546892504616, -34.56211188442604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "name": "Zoe Peluqueria",
+        "SocialNetworks": "https://www.instagram.com/zoeimagenes/",
+        "LightningNetwork": "",
+        "TuvoOnboarding": "",
+        "OtrosComentarios": "",
+        "Bitcoin": "No",
+        "LN": "Sí",
+        "Poligon": "No",
+        "Otras": "No",
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.8616180911139, -32.88690078262263]
       }
     }
   ]

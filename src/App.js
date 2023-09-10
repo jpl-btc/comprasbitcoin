@@ -63,6 +63,10 @@ function App() {
         const { properties = {}, geometry = {} } = feature;
         const {
           name,
+          SocialNetworks,
+          LightningNetwork,
+          TuvoOnboarding,
+          OtrosComentarios,
           Bitcoin,
           LN,
           Poligon,
@@ -105,6 +109,10 @@ function App() {
             }
             setSelectedData({
               name,
+              SocialNetworks,
+              LightningNetwork,
+              TuvoOnboarding,
+              OtrosComentarios,
               Bitcoin,
               LN,
               Poligon,
@@ -133,15 +141,28 @@ function App() {
           {selectedData && (
             <>
               <h1>{selectedData.name}</h1>
+              <h2>LightningNetwork: {selectedData.LightningNetwork}</h2>
+              <h5>Red Relámpago</h5>
+
               <h2>Bitcoin: {selectedData.Bitcoin}</h2>
               <h2>LN: {selectedData.LN}</h2>
               <h2>Poligon: {selectedData.Poligon}</h2>
-              <h2>Otras: {selectedData.Otras}</h2>
+              <h2>
+                Otras: {selectedData.Otras}
+                <br></br> <br></br>
+              </h2>
+
+              <h4>Más datos próximamente...</h4>
             </>
           )}
         </div>
         <div className="sidebar-footer">
-          <h5>Más datos próximamente...</h5>
+          <h5>
+            Dado lo novedosa que es esta tecnología, y que sigue a prueba. De
+            momento no podemos afirmar ni denegar que este negocio acepte
+            Satoshis. No estamos seguros de ello. Lo mejor es contactarse con el
+            negocio y consultar con ellos de manera directa si esto es así.
+          </h5>
         </div>
       </div>
       {selectedPlace && (
