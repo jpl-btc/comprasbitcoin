@@ -6,14 +6,38 @@
       "properties": {
         "id": 1,
         "name": "Shawarma",
-        "SocialNetworks": "",
-        "LightningNetwork": "",
-        "TuvoOnboarding": "",
+        "LightningNetwork": false,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
+        "Otras": "",
         "OtrosComentarios": "",
-        "Bitcoin": "Sí",
-        "LN": "Sí",
-        "Poligon": "No",
-        "Otras": "No",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
         "deliveryRadius": 100
       },
       "geometry": {
@@ -26,14 +50,38 @@
       "properties": {
         "id": 2,
         "name": "La Crypta",
-        "SocialNetworks": "",
-        "LightningNetwork": "",
-        "TuvoOnboarding": "",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": true,
+          "LNAddress": "pozo@lacrypta.ar "
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
+        "Otras": "",
         "OtrosComentarios": "",
-        "Bitcoin": "Sí",
-        "LN": "Sí",
-        "Poligon": "No",
-        "Otras": "No",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": true,
+            "url": "facebook.com"
+          },
+          "Twitter": {
+            "hasAccount": true,
+            "url": "https://twitter.com/LaCryptaOk"
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/lacryptaok/"
+          },
+          "WhatsApp": {
+            "hasAccount": true,
+            "url": "https://api.whatsapp.com/send/?phone=%2B541131080456&text=Hola+como+estan&type=phone_number&app_absent=0"
+          },
+          "Telegram": {
+            "hasAccount": true,
+            "url": "https://t.me/lacryptaok"
+          }
+        },
         "deliveryRadius": 100
       },
       "geometry": {
@@ -46,14 +94,38 @@
       "properties": {
         "id": 3,
         "name": "Temple Bar",
-        "SocialNetworks": "",
-        "LightningNetwork": "",
-        "TuvoOnboarding": "",
-        "OtrosComentarios": "",
-        "Bitcoin": "No",
-        "LN": "Pronto...",
-        "Poligon": "No",
+        "LightningNetwork": false,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
         "Otras": "Pinta Token",
+        "OtrosComentarios": "",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
         "deliveryRadius": 100
       },
       "geometry": {
@@ -66,14 +138,38 @@
       "properties": {
         "id": 4,
         "name": "Zoe Peluqueria",
-        "SocialNetworks": "https://www.instagram.com/zoeimagenes/",
-        "LightningNetwork": "",
-        "TuvoOnboarding": "",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
+        "Otras": "",
         "OtrosComentarios": "",
-        "Bitcoin": "No",
-        "LN": "Sí",
-        "Poligon": "No",
-        "Otras": "No",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/zoeimagenes/"
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
         "deliveryRadius": 100
       },
       "geometry": {

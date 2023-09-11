@@ -13,6 +13,11 @@ import Layout from "./components/Layout";
 import locations from "./data/locations";
 import utensilsIcon from "./assets/shared/btcPointer.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import facebookSvg from "./assets/SocialNetworks/Facebook.svg";
+import instagramSvg from "./assets/SocialNetworks/Instagram.svg";
+import telegramSvg from "./assets/SocialNetworks/Telegram.svg";
+import twitterSvg from "./assets/SocialNetworks/Twitter.svg";
+import whatsAppSvg from "./assets/SocialNetworks/WhatsApp.svg";
 
 function App() {
   const mapRef = useRef();
@@ -63,14 +68,14 @@ function App() {
         const { properties = {}, geometry = {} } = feature;
         const {
           name,
-          SocialNetworks,
           LightningNetwork,
+          LightningAddress,
           TuvoOnboarding,
           OtrosComentarios,
-          Bitcoin,
-          LN,
-          Poligon,
+          BitcoinMainnet,
+          USDT,
           Otras,
+          SocialNetworks,
           deliveryRadius,
         } = properties;
         const { coordinates } = geometry;
@@ -109,14 +114,14 @@ function App() {
             }
             setSelectedData({
               name,
-              SocialNetworks,
               LightningNetwork,
+              LightningAddress,
               TuvoOnboarding,
               OtrosComentarios,
-              Bitcoin,
-              LN,
-              Poligon,
+              BitcoinMainnet,
+              USDT,
               Otras,
+              SocialNetworks,
             });
           }
         });
@@ -141,29 +146,111 @@ function App() {
           {selectedData && (
             <>
               <h1>{selectedData.name}</h1>
-              <h2>LightningNetwork: {selectedData.LightningNetwork}</h2>
-              <h5>Red Relámpago</h5>
-
-              <h2>Bitcoin: {selectedData.Bitcoin}</h2>
-              <h2>LN: {selectedData.LN}</h2>
-              <h2>Poligon: {selectedData.Poligon}</h2>
               <h2>
-                Otras: {selectedData.Otras}
-                <br></br> <br></br>
+                LightningNetwork:{" "}
+                {selectedData.LightningNetwork ? "Aceptado! 😀⚡" : "Pronto..."}
               </h2>
-
-              <h4>Más datos próximamente...</h4>
+              {selectedData.LightningAddress.hasLNAddress && (
+                <p>
+                  This is the LightningAddress of this business:{" "}
+                  {selectedData.LightningAddress.LNAddress}
+                </p>
+              )}
+              {selectedData.BitcoinMainnet && <h2>BitcoinMainnet: Aceptado</h2>}
+              {selectedData.USDT && <h2>USDT: Aceptado</h2>}
+              {selectedData.Otras && <h2>Otras: {selectedData.Otras}</h2>}
+              {selectedData.OtrosComentarios && (
+                <>
+                  <h4>{selectedData.OtrosComentarios}</h4>
+                </>
+              )}
+              <h5>
+                Dado lo novedosa que es esta tecnología, y que sigue a prueba...
+                De momento no podemos afirmar ni denegar que este negocio acepte
+                Satoshis. No estamos seguros de ello. Lo mejor es contactarse
+                con el negocio y consultar con ellos de manera directa si esto
+                es así.
+              </h5>
+              <h5>Contactarse con el establecimiento:</h5>
+              {selectedData.SocialNetworks.Facebook.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.Facebook.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={facebookSvg}
+                    alt="Facebook"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
+              {selectedData.SocialNetworks.Instagram.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.Instagram.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={instagramSvg}
+                    alt="Instagram"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
+              {selectedData.SocialNetworks.Twitter.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.Twitter.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={twitterSvg}
+                    alt="Twitter"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
+              {selectedData.SocialNetworks.Telegram.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.Telegram.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={telegramSvg}
+                    alt="Telegram"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
+              {selectedData.SocialNetworks.WhatsApp.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.WhatsApp.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={whatsAppSvg}
+                    alt="WhatsApp"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
             </>
           )}
         </div>
-        <div className="sidebar-footer">
-          <h5>
-            Dado lo novedosa que es esta tecnología, y que sigue a prueba. De
-            momento no podemos afirmar ni denegar que este negocio acepte
-            Satoshis. No estamos seguros de ello. Lo mejor es contactarse con el
-            negocio y consultar con ellos de manera directa si esto es así.
-          </h5>
-        </div>
+        <div className="sidebar-footer"></div>
       </div>
       {selectedPlace && (
         <div className="info-box">

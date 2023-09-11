@@ -1,6 +1,6 @@
 /* Warning: for the workshop, you shouldn't have to modify styles here */
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
 
 :root {
   --launchtime-purple: #0121d8;
@@ -23,7 +23,7 @@
 }
 
 body {
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
@@ -31,7 +31,8 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 .wrapper {
@@ -61,7 +62,7 @@ main {
   padding: 1em 1.6em;
   background-color: var(--blue-grey-800);
   border: 0;
-  border-radius: .4em;
+  border-radius: 0.4em;
   cursor: pointer;
 }
 
@@ -95,6 +96,21 @@ footer {
 footer p {
   font-size: 1em;
   margin: 0;
+}
+/* Footer hyperlinks */
+
+footer a {
+  color: #ffa500; /* Regular hyperlinks in orange */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+footer a:visited {
+  color: #ff8c00; /* Visited hyperlinks in dark orange */
+}
+
+footer a:hover {
+  color: #ffd700; /* Hyperlinks on hover in light orange */
 }
 
 /* Header */
@@ -171,7 +187,7 @@ footer p {
   display: block;
   width: 1.6em;
   height: auto;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 /* ------- */
