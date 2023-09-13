@@ -9,7 +9,7 @@ main {
 
 .restaurant-popup h3 {
   font-size: 1.4em;
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
 }
 
 .restaurant-popup ul {
@@ -19,7 +19,7 @@ main {
 }
 
 .restaurant-popup li {
-  margin-bottom: .4em;
+  margin-bottom: 0.4em;
 }
 
 .restaurant-popup li:last-child {
@@ -49,5 +49,26 @@ main {
   font-weight: bold;
   background-color: var(--launchtime-cyan);
   border: 0;
-  padding: .8em 1em;
+  padding: 0.8em 1em;
+}
+
+.lightning-button {
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  background-color: #333; /* Adjust the color as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* In case you also use this class for <a> elements */
+  outline: none; /* Removes the default focus outline */
+}
+
+.lightning-button:hover {
+  background-color: #555; /* Adjust the hover color as needed */
+}
+
+.lightning-button:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5); /* Adds a focus ring for accessibility */
 }

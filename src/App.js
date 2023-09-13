@@ -18,12 +18,36 @@ import instagramSvg from "./assets/SocialNetworks/Instagram.svg";
 import telegramSvg from "./assets/SocialNetworks/Telegram.svg";
 import twitterSvg from "./assets/SocialNetworks/Twitter.svg";
 import whatsAppSvg from "./assets/SocialNetworks/WhatsApp.svg";
+import { requestProvider } from "webln";
 
 function App() {
   const mapRef = useRef();
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [selectedData, setSelectedData] = useState(null);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [nodeInfo, setNodeInfo] = useState("");
+  const [amount, setAmount] = useState(0);
+  const [paymentRequest, setPaymentRequest] = useState("");
+
+  async function loadRequestProvider() {
+    const webln = await requestProvider();
+    const nodeInfo = await webln.getInfo();
+    setNodeInfo(nodeInfo.node.alias);
+    console.log(nodeInfo);
+  }
+
+  async function handleInvoice(event) {
+    event.preventDefault();
+    const webln = await requestProvider();
+    const invoice = await webln.makeInvoice(amount);
+    console.log(invoice);
+    setPaymentRequest(invoice.paymentRequest);
+  }
+
+  async function handlePayment() {
+    const webln = await requestProvider();
+    await webln.sendPayment(paymentRequest);
+  }
 
   useEffect(() => {
     delete L.Icon.Default.prototype._getIconUrl;
@@ -154,10 +178,12 @@ function App() {
               </h2>
               {selectedData.LightningAddress.hasLNAddress && (
                 <p>
-                  This is the LightningAddress of this business:{" "}
-                  {selectedData.LightningAddress.LNAddress}
+                  <button onClick={handleInvoice} className="lightning-button">
+                    ⚡{selectedData.LightningAddress.LNAddress}
+                  </button>
                 </p>
               )}
+
               {selectedData.BitcoinMainnet && <h2>BitcoinMainnet: Aceptado</h2>}
               {selectedData.USDT && <h2>USDT: Aceptado</h2>}
               {selectedData.Otras && <h2>Otras: {selectedData.Otras}</h2>}
