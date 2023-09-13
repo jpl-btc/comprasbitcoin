@@ -30,9 +30,12 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 
 ## Changelog
 
-v0.0.6 > agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen.
+v0.0.7 -> hacer un google forms ponerle url linda, para que otras personas peudan agregar datos. hacer 2gforms.? uno de incrustado a la web. otro para nosotros?? (para saber de donde vienen los datos?)
 
-v0.0.5 -> Agregar propina al creador de la web + propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. agregar caracas bar. Agregado espacio para direcciones.
+v0.0.6 -> agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen.
+
+v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales.
+v0.0.4.2 -> Agregar propina al creador de la web. agregar caracas bar. Agregado espacio para direcciones.
 v0.0.4 -> Pulido del sidebar. remove lo innecesario y agregado de emojis, opcion true | false para opciones de pago y agregado de social networks y formas de contacto. agregado en el footer formas de darnos nuevos negocios (entrar al discord de la crypta)
 v0.0.3 -> agregado de peluqueria de mandoza, expansion del json , y aclaracion en el sidebar.
 v0.0.2 -> sidebar now stays open when clicking on other popup location marker.
