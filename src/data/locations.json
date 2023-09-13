@@ -15,6 +15,7 @@
         "BitcoinMainnet": false,
         "USDT": false,
         "Otras": "",
+        "Direccion": "",
         "OtrosComentarios": "",
         "SocialNetworks": {
           "Facebook": {
@@ -59,6 +60,7 @@
         "BitcoinMainnet": false,
         "USDT": false,
         "Otras": "",
+        "Direccion": "",
         "OtrosComentarios": "",
         "SocialNetworks": {
           "Facebook": {
@@ -103,6 +105,7 @@
         "BitcoinMainnet": false,
         "USDT": false,
         "Otras": "Pinta Token",
+        "Direccion": "",
         "OtrosComentarios": "",
         "SocialNetworks": {
           "Facebook": {
@@ -137,6 +140,51 @@
       "type": "Feature",
       "properties": {
         "id": 4,
+        "name": "Caracas Bar",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": true,
+        "Otras": "Consultar",
+        "Direccion": "Guatemala 4802, Palermo Buenos Aires",
+        "OtrosComentarios": "Tel: 01162768330",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": true,
+            "url": "https://www.facebook.com/CaracasBarBA/"
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/caracasbar/"
+          },
+          "WhatsApp": {
+            "hasAccount": true,
+            "url": "https://api.whatsapp.com/message/C4H25D53PCV5E1?autoload=1&app_absent=0"
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.425639, -34.585365]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
         "name": "Zoe Peluqueria",
         "LightningNetwork": true,
         "LightningAddress": {
@@ -147,6 +195,7 @@
         "BitcoinMainnet": false,
         "USDT": false,
         "Otras": "",
+        "Direccion": "",
         "OtrosComentarios": "",
         "SocialNetworks": {
           "Facebook": {

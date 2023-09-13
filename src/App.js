@@ -75,6 +75,7 @@ function App() {
           BitcoinMainnet,
           USDT,
           Otras,
+          Direccion,
           SocialNetworks,
           deliveryRadius,
         } = properties;
@@ -121,6 +122,7 @@ function App() {
               BitcoinMainnet,
               USDT,
               Otras,
+              Direccion,
               SocialNetworks,
             });
           }
@@ -159,6 +161,9 @@ function App() {
               {selectedData.BitcoinMainnet && <h2>BitcoinMainnet: Aceptado</h2>}
               {selectedData.USDT && <h2>USDT: Aceptado</h2>}
               {selectedData.Otras && <h2>Otras: {selectedData.Otras}</h2>}
+              {selectedData.Direccion && (
+                <h4>Direccion: {selectedData.Direccion}</h4>
+              )}
               {selectedData.OtrosComentarios && (
                 <>
                   <h4>{selectedData.OtrosComentarios}</h4>
