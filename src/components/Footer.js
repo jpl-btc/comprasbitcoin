@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
       <Container>
         <p>
-          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.4 |{" "}
+          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.5 |{" "}
           <span>
             ¿Queres agregar un establecimiento al mapa de ComprasBitcoin.ar?{" "}
             <a
