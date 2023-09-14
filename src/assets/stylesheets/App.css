@@ -55,17 +55,19 @@ main {
 .lightning-button {
   display: inline-block;
   padding: 5px 10px;
-  color: white;
+  color: white; /* Explicitly setting text color */
+  font-weight: bold; /* Making the text bolder */
   background-color: #333; /* Adjust the color as needed */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  text-decoration: none; /* In case you also use this class for <a> elements */
+  text-decoration: none; /* Overriding default link styling */
   outline: none; /* Removes the default focus outline */
 }
 
 .lightning-button:hover {
+  color: white; /* Ensuring hover keeps the text white */
   background-color: #555; /* Adjust the hover color as needed */
 }
 
