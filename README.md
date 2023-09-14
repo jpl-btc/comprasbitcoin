@@ -34,9 +34,24 @@ v0.0.7 -> hacer un google forms ponerle url linda, para que otras personas peuda
 
 v0.0.6 -> agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen.
 
-v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales.
+v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. Agregado link para llenar el formulario y agregar una direccion. Agregado lista de colaboradores en el readme. Shawarma Mwafi agregado. Libro sustentable agregado.
 v0.0.4.2 -> Agregar propina al creador de la web. agregar caracas bar. Agregado espacio para direcciones.
 v0.0.4 -> Pulido del sidebar. remove lo innecesario y agregado de emojis, opcion true | false para opciones de pago y agregado de social networks y formas de contacto. agregado en el footer formas de darnos nuevos negocios (entrar al discord de la crypta)
 v0.0.3 -> agregado de peluqueria de mandoza, expansion del json , y aclaracion en el sidebar.
 v0.0.2 -> sidebar now stays open when clicking on other popup location marker.
 v0.0.1 -> it just works
+
+## Lista de colaboradores y sus aportes
+
+### Mes de Septiembre 2023
+
+- naranja: nombre del sitio
+- cyberpunk: direcciones + ideas diseño
+- rapax: ayuda p mejorar forms
+- jona: direcciones + ideas diseño
+- fer: ideas/ayuda back
+- negr0: tester + direcciones + ideas diseño
+- bitpanter: ideas diseño
+- ruth: ideas diseño
+- tincho: direcciones + ideas diseño
+- extraterrestre: me copie parte de su codigo para lnurl
