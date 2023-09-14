@@ -18,36 +18,13 @@ import instagramSvg from "./assets/SocialNetworks/Instagram.svg";
 import telegramSvg from "./assets/SocialNetworks/Telegram.svg";
 import twitterSvg from "./assets/SocialNetworks/Twitter.svg";
 import whatsAppSvg from "./assets/SocialNetworks/WhatsApp.svg";
-import { requestProvider } from "webln";
+import nostrSvg from "./assets/SocialNetworks/Nostr.svg";
 
 function App() {
   const mapRef = useRef();
   const [selectedPlace, setSelectedPlace] = useState(null);
   const [selectedData, setSelectedData] = useState(null);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const [nodeInfo, setNodeInfo] = useState("");
-  const [amount, setAmount] = useState(0);
-  const [paymentRequest, setPaymentRequest] = useState("");
-
-  async function loadRequestProvider() {
-    const webln = await requestProvider();
-    const nodeInfo = await webln.getInfo();
-    setNodeInfo(nodeInfo.node.alias);
-    console.log(nodeInfo);
-  }
-
-  async function handleInvoice(event) {
-    event.preventDefault();
-    const webln = await requestProvider();
-    const invoice = await webln.makeInvoice(amount);
-    console.log(invoice);
-    setPaymentRequest(invoice.paymentRequest);
-  }
-
-  async function handlePayment() {
-    const webln = await requestProvider();
-    await webln.sendPayment(paymentRequest);
-  }
 
   useEffect(() => {
     delete L.Icon.Default.prototype._getIconUrl;
@@ -178,9 +155,12 @@ function App() {
               </h2>
               {selectedData.LightningAddress.hasLNAddress && (
                 <p>
-                  <button onClick={handleInvoice} className="lightning-button">
+                  <a
+                    href={`lightning:${selectedData.LightningAddress.LNAddress}`}
+                    className="lightning-button"
+                  >
                     ⚡{selectedData.LightningAddress.LNAddress}
-                  </button>
+                  </a>
                 </p>
               )}
 
@@ -195,6 +175,7 @@ function App() {
                   <h4>{selectedData.OtrosComentarios}</h4>
                 </>
               )}
+
               <h5>
                 Dado lo novedosa que es esta tecnología, y que sigue a prueba...
                 De momento no podemos afirmar ni denegar que este negocio acepte
@@ -272,6 +253,21 @@ function App() {
                   <img
                     src={whatsAppSvg}
                     alt="WhatsApp"
+                    className="social-icon"
+                    width="15%"
+                    height="auto"
+                  />
+                </a>
+              )}
+              {selectedData.SocialNetworks.Nostr.hasAccount && (
+                <a
+                  href={selectedData.SocialNetworks.Nostr.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={nostrSvg}
+                    alt="Nostr"
                     className="social-icon"
                     width="15%"
                     height="auto"

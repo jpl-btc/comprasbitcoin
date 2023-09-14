@@ -10,16 +10,25 @@ const Footer = () => {
     <footer>
       <Container>
         <p>
-          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.4.2 |{" "}
+          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.5 |{" "}
           <span>
-            ¿Queres agregar un establecimiento al mapa de ComprasBitcoin.ar?{" "}
+            ¿Queres agregar un establecimiento 🏢 al mapa de ComprasBitcoin.ar?{" "}
+            <a
+              href="https://forms.gle/vsn6BmqYLJjo9MWq7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ¡Llena este formulario 📝!
+            </a>{" "}
+            | Tambien podes{" "}
             <a
               href="https://discord.com/invite/SN8JNhMgvY"
               target="_blank"
               rel="noopener noreferrer"
             >
-              ¡Entra a nuestro Discord y dejanos un mensaje!
-            </a>
+              entrar a nuestro Discord y dejarnos un mensaje! 😊
+            </a>{" "}
+            |
           </span>
         </p>
       </Container>

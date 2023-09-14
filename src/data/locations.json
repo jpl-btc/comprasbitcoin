@@ -5,8 +5,57 @@
       "type": "Feature",
       "properties": {
         "id": 1,
-        "name": "Shawarma",
-        "LightningNetwork": false,
+        "name": "Shawarma Mwafi",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
+        "Otras": "",
+        "Direccion": "Teodoro García 1725, C1426 CABA",
+        "OtrosComentarios": "Take Away o Delivery a domilicio 🛵 Pedidos solo por teléfono 📞 4776-0718",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/mwafishawarmas/"
+          },
+          "WhatsApp": {
+            "hasAccount": true,
+            "url": "https://api.whatsapp.com/message/NMIQL6O3MF4QP1?autoload=1&app_absent=0"
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.44016870013989, -34.56322791072854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "name": "Zoe Peluqueria",
+        "LightningNetwork": true,
         "LightningAddress": {
           "hasLNAddress": false,
           "LNAddress": ""
@@ -27,8 +76,8 @@
             "url": ""
           },
           "Instagram": {
-            "hasAccount": false,
-            "url": ""
+            "hasAccount": true,
+            "url": "https://www.instagram.com/zoeimagenes/"
           },
           "WhatsApp": {
             "hasAccount": false,
@@ -37,60 +86,20 @@
           "Telegram": {
             "hasAccount": false,
             "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
           }
         },
         "deliveryRadius": 100
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-58.44023122747998, -34.563110236974595]
+        "coordinates": [-68.8616180911139, -32.88690078262263]
       }
     },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": 2,
-        "name": "La Crypta",
-        "LightningNetwork": true,
-        "LightningAddress": {
-          "hasLNAddress": true,
-          "LNAddress": "pozo@lacrypta.ar "
-        },
-        "TuvoOnboarding": false,
-        "BitcoinMainnet": false,
-        "USDT": false,
-        "Otras": "",
-        "Direccion": "",
-        "OtrosComentarios": "",
-        "SocialNetworks": {
-          "Facebook": {
-            "hasAccount": true,
-            "url": "facebook.com"
-          },
-          "Twitter": {
-            "hasAccount": true,
-            "url": "https://twitter.com/LaCryptaOk"
-          },
-          "Instagram": {
-            "hasAccount": true,
-            "url": "https://www.instagram.com/lacryptaok/"
-          },
-          "WhatsApp": {
-            "hasAccount": true,
-            "url": "https://api.whatsapp.com/send/?phone=%2B541131080456&text=Hola+como+estan&type=phone_number&app_absent=0"
-          },
-          "Telegram": {
-            "hasAccount": true,
-            "url": "https://t.me/lacryptaok"
-          }
-        },
-        "deliveryRadius": 100
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-58.44314624109955, -34.564703087202226]
-      }
-    },
+
     {
       "type": "Feature",
       "properties": {
@@ -125,6 +134,10 @@
             "url": ""
           },
           "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Nostr": {
             "hasAccount": false,
             "url": ""
           }
@@ -172,6 +185,10 @@
           "Telegram": {
             "hasAccount": false,
             "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
           }
         },
         "deliveryRadius": 100
@@ -184,19 +201,19 @@
     {
       "type": "Feature",
       "properties": {
-        "id": 0,
-        "name": "Zoe Peluqueria",
+        "id": 5,
+        "name": "Librito Sustentable",
         "LightningNetwork": true,
         "LightningAddress": {
-          "hasLNAddress": false,
-          "LNAddress": ""
+          "hasLNAddress": true,
+          "LNAddress": "libroverde@wallet.lacrypta.ar"
         },
         "TuvoOnboarding": false,
         "BitcoinMainnet": false,
         "USDT": false,
         "Otras": "",
-        "Direccion": "",
-        "OtrosComentarios": "",
+        "Direccion": "Parque del Río de Vicente López",
+        "OtrosComentarios": "Solo entrego libritos en mano en el Parque del Río en Vicente López, los fines de semana",
         "SocialNetworks": {
           "Facebook": {
             "hasAccount": false,
@@ -208,13 +225,17 @@
           },
           "Instagram": {
             "hasAccount": true,
-            "url": "https://www.instagram.com/zoeimagenes/"
+            "url": "https://www.instagram.com/p/CcT2r84ODC3/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="
           },
           "WhatsApp": {
+            "hasAccount": true,
+            "url": "https://wa.me/5491122653586?text=Me%20interesa%20adquirir%20un%20librito%20sustentable%20"
+          },
+          "Telegram": {
             "hasAccount": false,
             "url": ""
           },
-          "Telegram": {
+          "Nostr": {
             "hasAccount": false,
             "url": ""
           }
@@ -223,7 +244,57 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-68.8616180911139, -32.88690078262263]
+        "coordinates": [-58.468200709335875, -34.52434439679313]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 0,
+        "name": "La Crypta",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": true,
+          "LNAddress": "pozo@lacrypta.ar "
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": false,
+        "USDT": false,
+        "Otras": "",
+        "Direccion": "",
+        "OtrosComentarios": "",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": true,
+            "url": "facebook.com"
+          },
+          "Twitter": {
+            "hasAccount": true,
+            "url": "https://twitter.com/LaCryptaOk"
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/lacryptaok/"
+          },
+          "WhatsApp": {
+            "hasAccount": true,
+            "url": "https://api.whatsapp.com/send/?phone=%2B541131080456&text=Hola+como+estan&type=phone_number&app_absent=0"
+          },
+          "Telegram": {
+            "hasAccount": true,
+            "url": "https://t.me/lacryptaok"
+          },
+          "Nostr": {
+            "hasAccount": true,
+            "url": "https://iris.to/npub19vqjdaudm3vk4gavgpygkxtn3pc07kxvlmj3jww6h8wvwr242uqq0dekq0"
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.44314624109955, -34.564703087202226]
       }
     }
   ]
