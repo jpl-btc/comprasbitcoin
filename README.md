@@ -2,7 +2,7 @@
 
 Un proyecto nacido en La Crypta
 
-Current version: `v0.0.4.2`
+Current version: `v0.0.6`
 
 ## roadmap
 

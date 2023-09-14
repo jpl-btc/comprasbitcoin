@@ -188,13 +188,6 @@ function App() {
                 </>
               )}
 
-              <h5>
-                Dado lo novedosa que es esta tecnología, y que sigue a prueba...
-                De momento no podemos afirmar ni denegar que este negocio acepte
-                Satoshis. No estamos seguros de ello. Lo mejor es contactarse
-                con el negocio y consultar con ellos de manera directa si esto
-                es así.
-              </h5>
               <h5>Contactarse con el establecimiento:</h5>
               {selectedData.SocialNetworks.Facebook.hasAccount && (
                 <a
@@ -286,6 +279,13 @@ function App() {
                   />
                 </a>
               )}
+              <h5>
+                Dado lo novedosa que es esta tecnología, y que sigue a prueba...
+                De momento no podemos afirmar ni denegar que este negocio acepte
+                Satoshis. No estamos seguros de ello. Lo mejor es contactarse
+                con el negocio y consultar con ellos de manera directa si esto
+                es así.
+              </h5>
             </>
           )}
         </div>
