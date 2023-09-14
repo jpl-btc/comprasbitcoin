@@ -19,6 +19,7 @@ import telegramSvg from "./assets/SocialNetworks/Telegram.svg";
 import twitterSvg from "./assets/SocialNetworks/Twitter.svg";
 import whatsAppSvg from "./assets/SocialNetworks/WhatsApp.svg";
 import nostrSvg from "./assets/SocialNetworks/Nostr.svg";
+import googleMapsIcon from "./assets/googleMapsIcon.svg";
 
 function App() {
   const mapRef = useRef();
@@ -168,7 +169,18 @@ function App() {
               {selectedData.USDT && <h2>USDT: Aceptado</h2>}
               {selectedData.Otras && <h2>Otras: {selectedData.Otras}</h2>}
               {selectedData.Direccion && (
-                <h4>Direccion: {selectedData.Direccion}</h4>
+                <>
+                  <h4>Dirección: {selectedData.Direccion}</h4>
+                  <a
+                    href={`https://www.google.com/maps/search/?api=1&query=${selectedData.Direccion}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="google-maps-button"
+                  >
+                    Ir a Google Maps{" "}
+                    <img src={googleMapsIcon} alt="Open in Google Maps" />
+                  </a>
+                </>
               )}
               {selectedData.OtrosComentarios && (
                 <>

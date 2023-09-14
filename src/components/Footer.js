@@ -4,13 +4,19 @@ import React from "react";
 
 import Container from "./Container";
 //import "./assets/stylesheets/Footer.css";
+import jsonData from "../data/locations.json";
 
 const Footer = () => {
+  const numberOfPoints = jsonData.features.filter(
+    (feature) => feature.geometry.type === "Point"
+  ).length;
+
   return (
     <footer>
       <Container>
         <p>
-          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.5 |{" "}
+          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.6 | Tenemos{" "}
+          {numberOfPoints} negocios registrados |{" "}
           <span>
             ¿Queres agregar un establecimiento 🏢 al mapa de ComprasBitcoin.ar?{" "}
             <a

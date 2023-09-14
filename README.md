@@ -21,7 +21,6 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 ### Para hacer algun día o "FEATURE REQUESTS"
 
 - "excelente!, agregaria que la gente pueda valorar (ademas con estrellitas con zaps??)" - bitpanter {sobre este comentario, haria falta una implementacion de tipo nostr, y que el review se ejecute como una nostr note.. y eso si que seria un flash}
-- que cada point tenga una certificada de " tuvo un la crypta onboarding si o no?" y eso significa que alguien de la comunidad de la crypta se acerco para verificar que el negocio efectivamente acepta ln y que sabe usarlo y anda todo bien.
 - Crear un sistema de poder activar o desactivar un punto en el mapa, solo activable o desactivable por el negocio, usando una key de nostr. Tal vez aca pueda estar el valor agregado especial unico, la coneccion a travez de un relay de nostr.
 - Crear un "selector de provincias" que no es mas que mover el zoom del mapa hacia el centro de cada provincia.
 - En su consecuente crear un "selector de ciudad" idem arriba, una vez que ya elegiste la provincia, el selector podria cambiar. o si es un punto abajo, podria haber otro punto al lado que aparece, dejando a la izq el punto de provincia cerrado. onda una cosa asi: O-o-o-o-o-o- ... o o | 0 0. esta bueno que sean puntos asi es facil tocar c el dedo. en ciudades, se puede poner un punto de "navegar libre" por defecto
@@ -30,11 +29,10 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 
 ## Changelog
 
-v0.0.7 -> hacer un google forms ponerle url linda, para que otras personas peudan agregar datos. hacer 2gforms.? uno de incrustado a la web. otro para nosotros?? (para saber de donde vienen los datos?)
+v0.0.7 ->
 
-v0.0.6 -> agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen.
-
-v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. Agregado link para llenar el formulario y agregar una direccion. Agregado lista de colaboradores en el readme. Shawarma Mwafi agregado. Libro sustentable agregado.
+v0.0.6 -> agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen. Agregado el numero de negocios registrados.
+v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. Agregado link para llenar el formulario google forms y agregar una direccion. Agregado lista de colaboradores en el readme. Shawarma Mwafi agregado. Libro sustentable agregado.
 v0.0.4.2 -> Agregar propina al creador de la web. agregar caracas bar. Agregado espacio para direcciones.
 v0.0.4 -> Pulido del sidebar. remove lo innecesario y agregado de emojis, opcion true | false para opciones de pago y agregado de social networks y formas de contacto. agregado en el footer formas de darnos nuevos negocios (entrar al discord de la crypta)
 v0.0.3 -> agregado de peluqueria de mandoza, expansion del json , y aclaracion en el sidebar.
