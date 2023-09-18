@@ -6,17 +6,15 @@ Current version: `v0.0.7`
 
 ## roadmap
 
-v0.1 -> mapa villero tosco, pero con la data. mvp crudoli
-v0.2 -> hacerlo denuevo pero bien | refinamiento, con cosas updateadas. revisar librerias y node modules, tratar de uptadear cosas.
-v0.3 -> emebellecer un poco la villerada
+`v0.1` -> mapa tosco, pero que funciona y tiene sitios válidos. mvp crudoli. `Estamos en esta fase.` (en las v0.1.x los datos son subidos manualmente en un json). ReactJS
 
-en las 0.x los datos son subidos manualmente en un json
+v0.2 -> el usuario puede agregar sus sitios. NextJS + MongoDB
 
-v.1.0 -> se deja de usar el json y se piensa en una base de datos y un front end para que la gente sume su propio dato.
+v0.3 -> embellecer un poco la villerada
 
 v.?.0 -> hasta donde llegare (...un misil en mi placard, soda stereo)
 
-fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
+fin del roadmap -> gira por todos los bares con ⚡LN⚡ a ponernos en pedo como nunca.
 
 ### Para hacer algun día o "FEATURE REQUESTS"
 
@@ -28,8 +26,23 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 - meter elementos de fileteo en el diseño de la web tarde o temprano.
 - evaluar recomendaciones de diseño de jona entre la 0.0.6 y 0.0.7 y repasar https://btcmap.org/
 - para agregar sitios: 1000 sat por sitio y concurso mensual de 20k sats por cada persona con ln que registre sitio nuevo. voy a tener que agregar datos de persona que agrega? poner opcion anonimo o dejar el email de contacto. esto solo cuando este lista la 2da etapa, con agregado de sitios por users.
+- configurar los redireccionamientos de los sitios .ar todos al mismo.
+- revisar lo de forzar https, por alguna razon a veces entra solo en http:
+- cloudflare? mm
+- nextJS + mongoDB + Vercel para fase 2 luego tb autNext
 
 ## Changelog
+
+| `v0.0.8` ->     | Arreglo de Bugs                                                                                                |
+| --------------- | -------------------------------------------------------------------------------------------------------------- |
+| Arreglo de Bugs | cuando abris un local para ver su info, abajo del footer aparece de forma "fantasma" el titulo del comercio 👀 |
+| Arreglo de Bugs | si achicas todo el icono del gps de google map se hace infinitamente chico                                     |
+
+| Sitios agregados
+
+- x
+
+---
 
 | `v0.0.7` ->                   | Actualización                                                                                                                                |
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
