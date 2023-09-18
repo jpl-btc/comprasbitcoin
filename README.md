@@ -30,17 +30,37 @@ fin del roadmap -> gira por todos los bares con ⚡LN⚡ a ponernos en pedo como
 - revisar lo de forzar https, por alguna razon a veces entra solo en http:
 - cloudflare? mm
 - nextJS + mongoDB + Vercel para fase 2 luego tb autNext
+- Fer — Today at 2:45 PM
+  @JP 🧙🎓🤿🐺 una sugerencia para el sitio, es que los locales tengan "categorías"
+  y que en alguna zona de la web (puede ser en el navbar) que diga explorar categorias ponele
+  o si no una side-bar que tenga filtros. para que, por ejemplo, si queres buscar BARES/RESTAURANTES puedas hacerlo. porque ahora tenes que ir apretando uno por uno para saber qué es. JP 🧙🎓🤿🐺 — Today at 2:52 PM. Claro, tener iconos distintos puede servir para eso por ahora. pero seria clave poner un tipo de visualizacion. , Que categorias y subcategorias,
+
+Comidas
+Comida | Restaurant | Bar
+
+Estetica:
+Peluqueria | Tatoos | Otros
+
+Servicios Profesionales:
+Legales | Contadores | Otros
+
+Ir de compras
+Bazar | Ropa | Supermercado
+
+Hoteles
 
 ## Changelog
 
 | `v0.0.8` ->     | Arreglo de Bugs                                                                                                |
 | --------------- | -------------------------------------------------------------------------------------------------------------- |
+| Feature         | Al hacer zoom out en el mapa, que los puntos se agrupen.                                                       |
 | Arreglo de Bugs | cuando abris un local para ver su info, abajo del footer aparece de forma "fantasma" el titulo del comercio 👀 |
 | Arreglo de Bugs | si achicas todo el icono del gps de google map se hace infinitamente chico                                     |
 
 | Sitios agregados
 
-- x
+- Las 3 sucursales de Nissan que aceptan bitcoin y usdt
+- Dity beer urquiza?
 
 ---
 
@@ -76,12 +96,12 @@ fin del roadmap -> gira por todos los bares con ⚡LN⚡ a ponernos en pedo como
 ### Mes de Septiembre 2023
 
 - naranja: nombre del sitio
-- cyberpunk: direcciones + ideas diseño
+- cyberpunk: direcciones + ideas diseño + categorias
 - rapax: ayuda p mejorar forms
 - jona: direcciones + ideas diseño
-- fer: ideas/ayuda back
+- fer: ideas/ayuda + ideas back + ayuda etapa 2, categorias
 - negr0: tester + direcciones + ideas diseño
 - bitpanter: ideas diseño
 - ruth: ideas diseño
-- tincho: direcciones + ideas diseño
+- tincho: direcciones + ideas diseño + ideas back
 - extraterrestre: me copie parte de su codigo para lnurl
