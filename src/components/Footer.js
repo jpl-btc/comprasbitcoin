@@ -15,16 +15,25 @@ const Footer = () => {
     <footer>
       <Container>
         <p>
-          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.6 | Tenemos{" "}
-          {numberOfPoints} negocios registrados |{" "}
+          &copy; {new Date().getFullYear()} ComprasBitcoin v0.0.7 |{" "}
+          {numberOfPoints} registros |{" "}
           <span>
-            ¿Queres agregar un establecimiento 🏢 al mapa de ComprasBitcoin.ar?{" "}
+            {" "}
+            📝
             <a
               href="https://forms.gle/vsn6BmqYLJjo9MWq7"
               target="_blank"
               rel="noopener noreferrer"
             >
-              ¡Llena este formulario 📝!
+              ¡Agregar un establecimiento🏢!
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://t.me/+kTrnxYGIwKY2YWVh"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Soporte por Telegram
             </a>{" "}
             | Tambien podes{" "}
             <a
@@ -32,7 +41,7 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              entrar a nuestro Discord y dejarnos un mensaje! 😊
+              La Crypta Discord! 😊
             </a>{" "}
             |
           </span>

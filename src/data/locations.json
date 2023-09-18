@@ -247,6 +247,202 @@
         "coordinates": [-58.468200709335875, -34.52434439679313]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "name": "Tequerock",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": true,
+        "USDT": true,
+        "Otras": "Pix",
+        "Direccion": "Rodríguez Peña 1034, C1020 CABA",
+        "OtrosComentarios": "",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://instagram.com/tequerock.ar/"
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.39202516919426, -34.59679459760681]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "name": "Contadores ARG",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": true,
+        "USDT": false,
+        "Otras": "",
+        "Direccion": "San Telmo: Peru y Independencia, caba",
+        "OtrosComentarios": "Negocio Digital",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/contadoresarg/"
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.37452473923474, -34.617164405510024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "name": "Venestore ",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": false,
+        "BitcoinMainnet": true,
+        "USDT": false,
+        "Otras": "",
+        "Direccion": "Av. Luis María Campos 148, C1425 CABA",
+        "OtrosComentarios": "Tienda de productos venezolanos",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://instagram.com/venestore/"
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.43108856681019, -34.57499509357702]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "name": "Peluquería Esteve",
+        "LightningNetwork": true,
+        "LightningAddress": {
+          "hasLNAddress": false,
+          "LNAddress": ""
+        },
+        "TuvoOnboarding": true,
+        "BitcoinMainnet": true,
+        "USDT": false,
+        "Otras": "",
+        "Direccion": "66 y 61 Necochea",
+        "OtrosComentarios": "2262 52-3493",
+        "SocialNetworks": {
+          "Facebook": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Twitter": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Instagram": {
+            "hasAccount": true,
+            "url": "https://www.instagram.com/peluqueriaesteve/"
+          },
+          "WhatsApp": {
+            "hasAccount": false,
+            "url": ""
+          },
+          "Telegram": {
+            "hasAccount": true,
+            "url": "2262 52-3493"
+          },
+          "Nostr": {
+            "hasAccount": false,
+            "url": ""
+          }
+        },
+        "deliveryRadius": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.74529253875494, -38.55158066162202]
+      }
+    },
 
     {
       "type": "Feature",

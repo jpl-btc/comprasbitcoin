@@ -2,7 +2,7 @@
 
 Un proyecto nacido en La Crypta
 
-Current version: `v0.0.6`
+Current version: `v0.0.7`
 
 ## roadmap
 
@@ -26,18 +26,37 @@ fin del roadmap -> gira por todos los negocios a ponernos en pedo como nunca.
 - En su consecuente crear un "selector de ciudad" idem arriba, una vez que ya elegiste la provincia, el selector podria cambiar. o si es un punto abajo, podria haber otro punto al lado que aparece, dejando a la izq el punto de provincia cerrado. onda una cosa asi: O-o-o-o-o-o- ... o o | 0 0. esta bueno que sean puntos asi es facil tocar c el dedo. en ciudades, se puede poner un punto de "navegar libre" por defecto
 - en algun momento agregar un boton flotante en el mapa "about us" o algo asi donde aparecen los colaboradores de la crypta que ayudaron a developear y|o promover el proyecto.
 - meter elementos de fileteo en el diseño de la web tarde o temprano.
+- evaluar recomendaciones de diseño de jona entre la 0.0.6 y 0.0.7 y repasar https://btcmap.org/
+- para agregar sitios: 1000 sat por sitio y concurso mensual de 20k sats por cada persona con ln que registre sitio nuevo. voy a tener que agregar datos de persona que agrega? poner opcion anonimo o dejar el email de contacto. esto solo cuando este lista la 2da etapa, con agregado de sitios por users.
 
 ## Changelog
 
-v0.0.7 ->
+| `v0.0.7` ->                   | Actualización                                                                                                                                |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Link al telegram de cyberpunk | Agregado del link en el footer https://t.me/+kTrnxYGIwKY2YWVh y reducción de texto en links de footer. (se me esta quedando chico el footer) |
 
-v0.0.6 -> agregar un click a la direccion para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. ver en otros mapas como hacen. Agregado el numero de negocios registrados.
-v0.0.5 -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. Agregado link para llenar el formulario google forms y agregar una direccion. Agregado lista de colaboradores en el readme. Shawarma Mwafi agregado. Libro sustentable agregado.
-v0.0.4.2 -> Agregar propina al creador de la web. agregar caracas bar. Agregado espacio para direcciones.
-v0.0.4 -> Pulido del sidebar. remove lo innecesario y agregado de emojis, opcion true | false para opciones de pago y agregado de social networks y formas de contacto. agregado en el footer formas de darnos nuevos negocios (entrar al discord de la crypta)
-v0.0.3 -> agregado de peluqueria de mandoza, expansion del json , y aclaracion en el sidebar.
-v0.0.2 -> sidebar now stays open when clicking on other popup location marker.
-v0.0.1 -> it just works
+| Sitios agregados
+
+- Tequerock
+- Contadores ARG
+- Venestore
+- Peluquería Esteve
+
+---
+
+`v0.0.6` -> gregado de un boton a la direccion (cuando hay) para que te lleve al google maps ( y gps). o hacer de la direccion un boton. pensarlo. Agregado el numero de negocios registrados.
+
+`v0.0.5` -> propina ln al negocio cuando tenga lnaddress disponible, con un click. Agregar el icono de nostr a redes sociales. Agregado link para llenar el formulario google forms y agregar una direccion. Agregado lista de colaboradores en el readme. Shawarma Mwafi agregado. Libro sustentable agregado.
+
+`v0.0.4.2` -> Agregar propina al creador de la web. agregar caracas bar. Agregado espacio para direcciones.
+
+`v0.0.4` -> Pulido del sidebar. remove lo innecesario y agregado de emojis, opcion true | false para opciones de pago y agregado de social networks y formas de contacto. agregado en el footer formas de darnos nuevos negocios (entrar al discord de la crypta)
+
+`v0.0.3` -> agregado de peluqueria de mandoza, expansion del json , y aclaracion en el sidebar.
+
+`v0.0.2` -> sidebar now stays open when clicking on other popup location marker.
+
+`v0.0.1` -> it just works
 
 ## Lista de colaboradores y sus aportes
 
