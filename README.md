@@ -30,7 +30,10 @@ fin del roadmap -> gira por todos los bares con ⚡LN⚡ a ponernos en pedo como
 - revisar lo de forzar https, por alguna razon a veces entra solo en http:
 - cloudflare? mm
 - nextJS + mongoDB + Vercel para fase 2 luego tb autNext
-- Fer — Today at 2:45 PM
+- Tincho —
+  JP, no encuentro repo o roadmap de este proyecto así que capaz ya lo tenés contemplado: el componente comunidad/social es importante. Además del login, la posibilidad de sugerir modificaciones sobre locales con aprobación de un mod (tipo Google maps)
+  Entiendo además que lo llevás como un proyecto personal, para aprender sobre estas tecnologías, pero contá conmigo en lo que pueda ayudarte
+- Fer —
   @JP 🧙🎓🤿🐺 una sugerencia para el sitio, es que los locales tengan "categorías"
   y que en alguna zona de la web (puede ser en el navbar) que diga explorar categorias ponele
   o si no una side-bar que tenga filtros. para que, por ejemplo, si queres buscar BARES/RESTAURANTES puedas hacerlo. porque ahora tenes que ir apretando uno por uno para saber qué es. JP 🧙🎓🤿🐺 — Today at 2:52 PM. Claro, tener iconos distintos puede servir para eso por ahora. pero seria clave poner un tipo de visualizacion. , Que categorias y subcategorias,
