@@ -99,7 +99,7 @@ Hoteles
 ### Mes de Septiembre 2023
 
 - naranja: nombre del sitio
-- cyberpunk: direcciones + ideas diseño + categorias
+- cyberpunk: direcciones + ideas diseño + categorias + creador y moderador de grupo de telegram
 - rapax: ayuda p mejorar forms
 - jona: direcciones + ideas diseño
 - fer: ideas/ayuda + ideas back + ayuda etapa 2, categorias
