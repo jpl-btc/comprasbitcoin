@@ -108,3 +108,4 @@ Hoteles
 - ruth: ideas diseño
 - tincho: direcciones + ideas diseño + ideas back
 - extraterrestre: me copie parte de su codigo para lnurl
+- digibit (telegram): feedback e ideas
